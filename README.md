@@ -18,6 +18,7 @@ This is a Java web-based CRUD application that allows users to register, view, u
 -**HTML, CSS**
 -**OpenPDF + Flying Saucer (PDF generation)**
 -**JDBC**
+-**VS Code Editor**
 
 ###  Setup Instructions
 1.Clone the project and open it in your IDE or file system.
