@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Registration Form</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <h2>Registration Form</h2>
+  <form method="POST" action="/register">
+    <label>First Name: <input type="text" name="first_name" required /></label><br /><br />
+    <label>Middle Name: <input type="text" name="middle_name" /></label><br /><br />
+    <label>Last Name: <input type="text" name="last_name" required /></label><br /><br />
+    <label>Date of Birth: <input type="date" name="dob" required /></label><br /><br />
+    <label>Gender:
+      <select name="gender" required>
+        <option value="">Select</option>
+        <option>Male</option>
+        <option>Female</option>
+        <option>Other</option>
+      </select>
+    </label><br /><br />
+    <label>Education:
+      <select name="education" required>
+        <option value="">Select</option>
+        <option>High School</option>
+        <option>Bachelor's</option>
+        <option>Master's</option>
+        <option>PhD</option>
+        <option>Other</option>
+      </select>
+    </label><br /><br />
+    <label>Contact: <input type="text" name="contact" required /></label><br /><br />
+    <label>Address: <textarea name="address" rows="3" required></textarea></label><br /><br />
+    <label>Username: <input type="text" name="username" required /></label><br /><br />
+    <label>Password: <input type="password" name="password" required /></label><br /><br />
+    <button type="submit">Register</button> 
+    <br>
+    <!--button for the report-->
+    <a href="/report" target="_blank"><button type="button">View Report</button></a>
+  </form>
+</body>
+</html>
