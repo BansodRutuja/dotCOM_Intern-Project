@@ -23,10 +23,10 @@ This is a Java web-based CRUD application that allows users to register, view, u
 ### Prerequisites
 - **Version**: JDK 8 or above
 - **MySQL 5.7 or 8.0**
-- **Required JAR Files** : mysql-connector-j-9.3.0.jar
-                           openpdf-1.2.7.jar
-                           core-renderer-R8.jar
-                           flying-saucer-pdf-openpdf-9.1.18.jar
+- **Required JAR Files** : - mysql-connector-j-9.3.0.jar
+                           - openpdf-1.2.7.jar
+                           - core-renderer-R8.jar
+                           - flying-saucer-pdf-openpdf-9.1.18.jar
 
 ###  Setup Instructions
 1.Clone the project and open it in your IDE or file system.
