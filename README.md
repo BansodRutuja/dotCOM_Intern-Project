@@ -59,6 +59,6 @@ private static final String PASSWORD = "your_mysql_password";
 *java -cp ".;lib/*;build" server.Main*
 
 ## Author 
-Rutuja Purushottam Bansod
-B.E. IT, 3rd Year
-Internship Project (2025)
+- Rutuja Purushottam Bansod
+- B.E. IT, 3rd Year
+- Internship Project (2025)
