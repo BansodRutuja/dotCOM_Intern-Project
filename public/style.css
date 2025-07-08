@@ -1,0 +1,161 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f4f6f8;
+}
+
+.container {
+    max-width: 100%;
+    width: 96%;
+    margin: 20px auto;
+    padding: 20px 10px;
+    box-sizing: border-box;
+    text-align: center;
+    overflow-x: auto;
+}
+
+h1 {
+    margin-bottom: 25px;
+    font-size: 22px;
+    color: #333;
+}
+
+/* === Form styling for index.html only === */
+h2 {
+    text-align: center;
+    margin-top: 30px;
+    font-size: 22px;
+    color: #333;
+}
+
+form {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.08);
+    text-align: left;
+}
+
+form label {
+    display: block;
+    margin-bottom: 10px;
+    font-size: 14px;
+    color: #111;
+    font-weight: 500;
+}
+
+form input[type="text"],
+form input[type="date"],
+form input[type="password"],
+form select,
+form textarea {
+    width: 100%;
+    padding: 8px 10px;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-top: 5px;
+    box-sizing: border-box;
+}
+
+form textarea {
+    resize: vertical;
+    min-height: 60px;
+}
+
+/* ✅ Center the PDF download button form */
+form[action="/generate-pdf"] {
+    text-align: center;
+}
+
+/* === Report Table Styles (layout updated only) === */
+.report-wrapper {
+    overflow-x: auto;
+}
+
+table.report-table {
+    width: 100%;
+    min-width: 1000px;
+    border-collapse: collapse;
+    table-layout: auto;
+    font-size: 14px;
+    margin-bottom: 20px;
+}
+
+th, td {
+    border: 1px solid #ccc;
+    padding: 8px 10px;
+    text-align: center;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+th {
+    background-color: #e0e0e0;
+    font-weight: bold;
+}
+
+td a.button {
+    padding: 4px 8px;
+    font-size: 13px;
+    border: none;
+    background-color: #4285f4;
+    color: white;
+    text-decoration: none;
+    border-radius: 4px;
+    margin: 0 2px;
+}
+
+td a.button:hover {
+    background-color: #3367d6;
+}
+
+form button {
+    background-color: #388e3c;
+    color: white;
+    border: none;
+    padding: 6px 12px;
+    font-size: 14px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #2e7d32;
+}
+
+a.button {
+    display: inline-block;
+    padding: 6px 12px;
+    background-color: #6c757d;
+    color: white;
+    text-decoration: none;
+    border-radius: 4px;
+}
+
+a.button:hover {
+    background-color: #5a6268;
+}
+
+/* Responsive tweaks */
+@media screen and (max-width: 768px) {
+    table.report-table {
+        font-size: 12px;
+    }
+
+    th, td {
+        padding: 6px;
+    }
+
+    .container {
+        padding: 20px 10px;
+    }
+
+    form {
+        padding: 15px;
+    }
+}
